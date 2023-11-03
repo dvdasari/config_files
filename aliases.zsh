@@ -2,6 +2,8 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
+command='ls -al'; alias ll="echo 'COMMAND: $command'; $command"
+
 # git
 command='git status'
 alias gs="echo 'COMMAND: $command'; $command"
